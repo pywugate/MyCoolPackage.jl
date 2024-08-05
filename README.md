@@ -102,10 +102,12 @@ error: failed to push some refs to 'https://github.com/your-GitHub-username/MyCo
 
 ```
 
-### Solution4 
+### Propsed Solution4 fails for me []
+Fails, Test on Foo.jl
 
 
-### Solution5, I didn't try [Ref8](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#8-proposed-solution5)
+
+### Proposed Solution5, I didn't try [Ref8](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#8-proposed-solution5)
 
 I didn't try because author copy files from generated template to another folder: 
 `Now, just copy the files from the ~/.julia/dev/VegaGraphs to the folder where you will be working from, and then setup your git repository by running the following commands in the terminal:.....`
@@ -131,9 +133,8 @@ fails for me, https://discourse.julialang.org/t/upload-new-package-to-github/567
 ##### 6. Proposed Solution3:
 fails for me, https://discourse.julialang.org/t/upload-new-package-to-github/56783/14
 
-##### 7. Solution4 : 
-https://discourse.julialang.org/t/trouble-publishing-my-first-package-to-github/93293/5
-
+##### 7. Propsed Solution4:
+fails for me, https://discourse.julialang.org/t/trouble-publishing-my-first-package-to-github/93293/5
 
 ##### 8. Proposed Solution5: 
 I didn't try, https://medium.com/coffee-in-a-klein-bottle/developing-your-julia-package-682c1d309507

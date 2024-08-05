@@ -26,13 +26,13 @@ run(`where git`)
 C:\Program Files\Git\cmd\git.exe
 ```
 
-### Solution1 works for me: [ref4](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#reference)
+### Solution1 works for me: [Ref4](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#4-solution1)
 
 Test on this repo MyCoolPackage.jl
 
 - - - 
 
-### Proposed Solution2 fails for me: [ref5](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#reference)
+### Proposed Solution2 fails for me: [Ref5](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#5-proposed-solution2)
 
 Fails, Test on MyCoolPackage2.jl
 
@@ -84,7 +84,7 @@ fatal: repository 'https://github.com/your-GitHub-username/MyCoolPackage2.jl/' n
 
 - - - 
 
-### Proposed Solution3 fails for me: [Ref6](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#reference)
+### Proposed Solution3 fails for me: [Ref6](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#6-proposed-solution3)
 ```
 julia> git push --set-upstream origin master
 ERROR: ParseError:
@@ -108,16 +108,22 @@ error: failed to push some refs to 'https://github.com/your-GitHub-username/MyCo
 ## Reference
 ##### 1. Official : 
 https://julialang.org/contribute/developing_package/
+
 ##### 2. Githubdesktop error: 
 https://stackoverflow.com/questions/44212412/github-desktop-error-the-repository-does-not-seem-to-exist-anymore-you-may-not
+
 ##### 3. Check Git in julia: 
 https://discourse.julialang.org/t/run-git-version-on-windows-errors/62198
+
 ##### 4. Solution1:
 works for me, https://discourse.julialang.org/t/upload-new-package-to-github/56783/8
+
 ##### 5. Proposed Solution2:
 fails for me, https://discourse.julialang.org/t/upload-new-package-to-github/56783/10
+
 ##### 6. Proposed Solution3:
 fails for me, https://discourse.julialang.org/t/upload-new-package-to-github/56783/14
+
 
 4. Solution2: https://discourse.julialang.org/t/trouble-publishing-my-first-package-to-github/93293/3
 5.

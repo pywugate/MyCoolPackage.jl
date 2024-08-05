@@ -84,6 +84,10 @@ shell> git push --set-upstream origin main
 ### Solution4 works for me: [Ref7](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#7-propsed-solution4)
 works, Test on Foo.jl
 
+1. create empty repo on github web
+2. create pkgtemplate by PkgTemplates
+3. add existing repo and publish via Github Desktop
+
 - - -
 
 ### Proposed Solution5, I didn't try: [Ref8](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#8-proposed-solution5)

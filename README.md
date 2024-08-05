@@ -59,7 +59,7 @@ shell> git branch -M main
 shell> git push -u origin main
 ```
 
-(optional) 3. add repo in Git Apps (Githubdesktop or GitKraken, etc)
+3. (optional) add repo in Git Apps (Githubdesktop or GitKraken, etc)
 
 - - - 
 
@@ -78,7 +78,7 @@ julia> cd(joinpath(t.dir, pkgname))
 shell> git push --set-upstream origin main
 ```
 
-(optional) 4. add repo in Git Apps (Githubdesktop or GitKraken, etc)
+4. (optional) add repo in Git Apps (Githubdesktop or GitKraken, etc)
 
 
 ### Solution4 works for me: [Ref7](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#7-propsed-solution4)

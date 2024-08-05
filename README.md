@@ -84,6 +84,7 @@ shell> git push --set-upstream origin main
 ### Solution4 works for me: [Ref7](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#7-propsed-solution4)
 works, Test on Foo.jl
 
+- - -
 
 ### Proposed Solution5, I didn't try: [Ref8](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#8-proposed-solution5)
 

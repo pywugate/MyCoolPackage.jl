@@ -106,12 +106,18 @@ error: failed to push some refs to 'https://github.com/your-GitHub-username/MyCo
 
 
 ## Reference
-1. Official : https://julialang.org/contribute/developing_package/
-2. Githubdesktop error: https://stackoverflow.com/questions/44212412/github-desktop-error-the-repository-does-not-seem-to-exist-anymore-you-may-not
-3. Check Git in julia: https://discourse.julialang.org/t/run-git-version-on-windows-errors/62198
-4. Solution1 works for me: https://discourse.julialang.org/t/upload-new-package-to-github/56783/8
-##### 5. Proposed Solution2 fails for me: : https://discourse.julialang.org/t/upload-new-package-to-github/56783/10
-###### 6. Proposed Solution3 fails for me: : https://discourse.julialang.org/t/upload-new-package-to-github/56783/14
+##### 1. Official : 
+https://julialang.org/contribute/developing_package/
+##### 2. Githubdesktop error: 
+https://stackoverflow.com/questions/44212412/github-desktop-error-the-repository-does-not-seem-to-exist-anymore-you-may-not
+##### 3. Check Git in julia: 
+https://discourse.julialang.org/t/run-git-version-on-windows-errors/62198
+##### 4. Solution1:
+works for me, https://discourse.julialang.org/t/upload-new-package-to-github/56783/8
+##### 5. Proposed Solution2:
+fails for me, https://discourse.julialang.org/t/upload-new-package-to-github/56783/10
+##### 6. Proposed Solution3:
+fails for me, https://discourse.julialang.org/t/upload-new-package-to-github/56783/14
 
 4. Solution2: https://discourse.julialang.org/t/trouble-publishing-my-first-package-to-github/93293/3
 5.

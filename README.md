@@ -32,44 +32,16 @@ Test on this repo [MyCoolPackage.jl](https://github.com/pywugate/MyCoolPackage.j
 
 - - - 
 
-### Proposed Solution2 fails for me: [Ref5](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#5-proposed-solution2)
+### Solution2 works for me: [Ref5](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#5-proposed-solution2)
 
 Test on MyCoolPackage2.jl
 
 1. create empty repo (no readme nor licence) on Github web
 
-2. follow the instruction: `…or push an existing repository from the command line`
+2. follow the instructions from github page of empty repo: 
+(the command from tbeason is modified by himself?)
 
-```
-julia> git remote add origin < SSH >
-ERROR: ParseError:
-# Error @ REPL[39]:1:4
-git remote add origin < SSH >
-#  └──────────────────────────────────────────────────────────────┘ ── extra tokens after end of expression
-Stacktrace:
- [1] top-level scope
-   @ none:1
-
-julia> git branch -M main
-ERROR: ParseError:
-# Error @ REPL[49]:1:4
-git branch -M main
-#  └─────────────┘ ── extra tokens after end of expression
-Stacktrace:
- [1] top-level scope
-   @ none:1
-
-juli> git push -u origin main
-ERROR: ParseError:
-# Error @ REPL[50]:1:4
-git push -u origin main
-#  └──────────────────┘ ── extra tokens after end of expression
-Stacktrace:
- [1] top-level scope
-   @ none:1
-
-```
-
+`…or push an existing repository from the command line`
 ```
 shell> git remote add origin < SSH >
 error: remote origin already exists.
@@ -77,16 +49,13 @@ error: remote origin already exists.
 shell> git branch -M main
 
 shell> git push -u origin main
-remote: Repository not found.
-fatal: repository 'https://github.com/your-GitHub-username/MyCoolPackage2.jl/' not found
-
 ```
 
 - - - 
 
 ### Solution3 works for me: [Ref6](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#6-proposed-solution3)
 
-Test on MyCoolPackage2.jl
+Test on MyCoolPackage3.jl
 
 1. create empty repo on github web, 
 2. create package template according to PkgTemplate.jl
@@ -97,7 +66,6 @@ julia> cd(joinpath(t.dir, pkgname))
 ```
 ```
 shell> git push --set-upstream origin main
-
 ```
 
 ### Solution4 works for me [Ref7](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#7-propsed-solution4)

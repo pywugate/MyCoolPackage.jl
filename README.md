@@ -84,21 +84,16 @@ fatal: repository 'https://github.com/your-GitHub-username/MyCoolPackage2.jl/' n
 
 - - - 
 
-### Proposed Solution3 fails for me: [Ref6](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#6-proposed-solution3)
+### Solution3 works for me: [Ref6](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#6-proposed-solution3)
+1. create empty repo on github web, 
+2. create package template according to PkgTemplate.jl
+3. go to `~/.julia/dev/MyPackage` and run git command
+
 ```
-julia> git push --set-upstream origin master
-ERROR: ParseError:
-# Error @ REPL[37]:1:4
-git push --set-upstream main
-#  └───────────────────────┘ ── extra tokens after end of expression
-Stacktrace:
- [1] top-level scope
-   @ none:1
+julia> cd(joinpath(t.dir, pkgname))
 ```
 ```
 shell> git push --set-upstream origin master
-error: src refspec master does not match any
-error: failed to push some refs to 'https://github.com/your-GitHub-username/MyCoolPackage2.jl'
 
 ```
 

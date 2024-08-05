@@ -3,7 +3,9 @@
 ## Personla Notes
 
 Basically I followed official tuto (Ref1), and failed many times.
+
 The key difference is that Chris use GitKraken, which seems no problem.
+
 I used GitHub desktop and there are many problems:
 
 1. GitHubDesktop always creates subfolder if I created new repo:

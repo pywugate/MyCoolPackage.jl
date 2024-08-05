@@ -10,7 +10,7 @@ I use GitHub desktop and there are many problems [Ref2](https://github.com/pywug
 
 1. If I created new repo, GitHubDesktop always creates subfolder :
 
-`~\.julia\dev\MyCoolPackage\MyCoolPackage.jl`
+  `~\.julia\dev\MyCoolPackage\MyCoolPackage.jl`
 
 or 
 

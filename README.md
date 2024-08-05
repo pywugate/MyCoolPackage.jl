@@ -85,6 +85,9 @@ fatal: repository 'https://github.com/your-GitHub-username/MyCoolPackage2.jl/' n
 - - - 
 
 ### Solution3 works for me: [Ref6](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#6-proposed-solution3)
+
+Works, Test on MyCoolPackage2.jl
+
 1. create empty repo on github web, 
 2. create package template according to PkgTemplate.jl
 3. go to `~/.julia/dev/MyPackage` and run git command
@@ -93,13 +96,12 @@ fatal: repository 'https://github.com/your-GitHub-username/MyCoolPackage2.jl/' n
 julia> cd(joinpath(t.dir, pkgname))
 ```
 ```
-shell> git push --set-upstream origin master
+shell> git push --set-upstream origin main
 
 ```
 
-### Propsed Solution4 works for me [Ref7](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#7-propsed-solution4)
+### Solution4 works for me [Ref7](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#7-propsed-solution4)
 works, Test on Foo.jl
-
 
 
 ### Proposed Solution5, I didn't try [Ref8](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#8-proposed-solution5)
@@ -120,19 +122,19 @@ https://stackoverflow.com/questions/44212412/github-desktop-error-the-repository
 https://discourse.julialang.org/t/run-git-version-on-windows-errors/62198
 
 ##### 4. Solution1:
-works for me, https://discourse.julialang.org/t/upload-new-package-to-github/56783/8
+https://discourse.julialang.org/t/upload-new-package-to-github/56783/8
 
 ##### 5. Proposed Solution2:
-fails for me, https://discourse.julialang.org/t/upload-new-package-to-github/56783/10
+https://discourse.julialang.org/t/upload-new-package-to-github/56783/10
 
-##### 6. Proposed Solution3:
-fails for me, https://discourse.julialang.org/t/upload-new-package-to-github/56783/14
+##### 6. Solution3:
+ https://discourse.julialang.org/t/upload-new-package-to-github/56783/14
 
-##### 7. Propsed Solution4:
-fails for me, https://discourse.julialang.org/t/trouble-publishing-my-first-package-to-github/93293/5
+##### 7. Solution4:
+ https://discourse.julialang.org/t/trouble-publishing-my-first-package-to-github/93293/5
 
 ##### 8. Proposed Solution5: 
-I didn't try, https://medium.com/coffee-in-a-klein-bottle/developing-your-julia-package-682c1d309507
+https://medium.com/coffee-in-a-klein-bottle/developing-your-julia-package-682c1d309507
 
 
 

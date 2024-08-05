@@ -102,8 +102,8 @@ error: failed to push some refs to 'https://github.com/your-GitHub-username/MyCo
 
 ```
 
-### Propsed Solution4 fails for me []
-Fails, Test on Foo.jl
+### Propsed Solution4 works for me [Ref7](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#7-propsed-solution4)
+works, Test on Foo.jl
 
 
 

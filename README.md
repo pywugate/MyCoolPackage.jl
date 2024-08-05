@@ -23,8 +23,7 @@ or
 1. most of them required Git installed
 2. I like solution 4 most, because 
     - it contains only 3 steps
-    - use git apps 
-    - without commands
+    - it uses git apps without commands
 
 ### First check git verion in julia: [Ref3](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#reference)
 

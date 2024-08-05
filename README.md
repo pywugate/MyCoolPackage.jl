@@ -19,19 +19,19 @@ or
 `“The repository does not seem to exist anymore. You may not have access, or it may have been deleted or renamed.”`
 
 ## Solutions
-- First check git verion in julia
+### First check git verion in julia
 
 ```
 run(`where git`)
 C:\Program Files\Git\cmd\git.exe
 ```
 
-- Solution1 works for me:
+### Solution1 works for me:
 https://discourse.julialang.org/t/upload-new-package-to-github/56783/8
 
 Test on this repo MyCoolPackage.jl
 
-- Proposed Solution2 fails for me:
+### Proposed Solution2 fails for me:
 https://discourse.julialang.org/t/upload-new-package-to-github/56783/10
 
 Fails, Test on MyCoolPackage2.jl
@@ -83,7 +83,7 @@ fatal: repository 'https://github.com/your-GitHub-username/MyCoolPackage2.jl/' n
 ```
 
 
-- Proposed Solution3 fails for me:
+### Proposed Solution3 fails for me:
 
 https://discourse.julialang.org/t/upload-new-package-to-github/56783/14
 ```

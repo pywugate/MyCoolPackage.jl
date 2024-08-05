@@ -31,6 +31,8 @@ https://discourse.julialang.org/t/upload-new-package-to-github/56783/8
 
 Test on this repo MyCoolPackage.jl
 
+
+
 ### Proposed Solution2 fails for me:
 https://discourse.julialang.org/t/upload-new-package-to-github/56783/10
 
@@ -81,6 +83,7 @@ remote: Repository not found.
 fatal: repository 'https://github.com/your-GitHub-username/MyCoolPackage2.jl/' not found
 
 ```
+
 
 
 ### Proposed Solution3 fails for me:

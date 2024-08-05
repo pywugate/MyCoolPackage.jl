@@ -2,7 +2,7 @@
 
 ## Problems
 
-Basically I followed official tuto (Ref1), and failed many times.
+Basically I followed official tuto [Ref1](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#1-official-), and failed many times.
 
 The key difference is that Chris use GitKraken, which seems no problem.
 

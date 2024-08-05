@@ -38,6 +38,8 @@ C:\Program Files\Git\cmd\git.exe
 
 Test on this repo [MyCoolPackage.jl](https://github.com/pywugate/MyCoolPackage.jl)
 
+4 or 5 steps, I didn't copy them here, please check original link.
+
 - - - 
 
 ### Solution2 works for me: [Ref5](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#5-proposed-solution2)

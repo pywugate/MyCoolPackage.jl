@@ -36,7 +36,7 @@ C:\Program Files\Git\cmd\git.exe
 
 ### Solution1 works for me: [Ref4](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#4-solution1)
 
-Test on this repo [MyCoolPackage.jl](https://github.com/pywugate/MyCoolPackage.jl)
+Test on this repo MyCoolPackage.jl
 
 4 or 5 steps, I didn't copy them here, please check original link.
 

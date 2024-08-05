@@ -6,7 +6,7 @@ Basically I followed official tuto [Ref1](https://github.com/pywugate/MyCoolPack
 
 The key difference is that Chris use GitKraken, which seems no problem.
 
-I used GitHub desktop and there are many problems:
+I used GitHub desktop and there are many problems [Ref2](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#2-githubdesktop-error):
 
 1. If I created new repo, GitHubDesktop always creates subfolder :
 

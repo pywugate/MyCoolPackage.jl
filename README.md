@@ -1,0 +1,1 @@
+# MyCoolPackage.jl

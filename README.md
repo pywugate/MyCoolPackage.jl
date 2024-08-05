@@ -13,7 +13,7 @@ I used GitHub desktop and there are many problems:
 
 or 
 
-2. If I add existing repo, GitHubDesktop always got error and fais pushing:
+2. If I add existing repo, GitHubDesktop always got error and fais pushing (Ref2): 
 `“The repository does not seem to exist anymore. You may not have access, or it may have been deleted or renamed.”`
 
 

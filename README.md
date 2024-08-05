@@ -34,7 +34,7 @@ Test on this repo [MyCoolPackage.jl](https://github.com/pywugate/MyCoolPackage.j
 
 ### Proposed Solution2 fails for me: [Ref5](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#5-proposed-solution2)
 
-Fails, Test on MyCoolPackage2.jl
+Test on MyCoolPackage2.jl
 
 1. create empty repo (no readme nor licence) on Github web
 
@@ -86,7 +86,7 @@ fatal: repository 'https://github.com/your-GitHub-username/MyCoolPackage2.jl/' n
 
 ### Solution3 works for me: [Ref6](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#6-proposed-solution3)
 
-Works, Test on MyCoolPackage2.jl
+Test on MyCoolPackage2.jl
 
 1. create empty repo on github web, 
 2. create package template according to PkgTemplate.jl

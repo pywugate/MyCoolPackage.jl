@@ -6,7 +6,7 @@ Basically I followed official tuto [Ref1](https://github.com/pywugate/MyCoolPack
 
 The key difference is that Chris use GitKraken, which seems no problem.
 
-I used GitHub desktop and there are many problems [Ref2](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#2-githubdesktop-error):
+I use GitHub desktop and there are many problems [Ref2](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#2-githubdesktop-error):
 
 1. If I created new repo, GitHubDesktop always creates subfolder :
 
@@ -19,6 +19,13 @@ or
 `“The repository does not seem to exist anymore. You may not have access, or it may have been deleted or renamed.”`
 
 ## Solutions
+### Conclusion
+1. most of them required Git installed
+2. I like solution 4 most, because 
+  - it contains only 3 steps
+  - use git apps 
+  - without commands
+
 ### First check git verion in julia: [Ref3](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#reference)
 
 ```
@@ -51,6 +58,8 @@ shell> git branch -M main
 shell> git push -u origin main
 ```
 
+(optional) 3. add repo in Git Apps (Githubdesktop or GitKraken, etc)
+
 - - - 
 
 ### Solution3 works for me: [Ref6](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#6-proposed-solution3)
@@ -68,16 +77,21 @@ julia> cd(joinpath(t.dir, pkgname))
 shell> git push --set-upstream origin main
 ```
 
-### Solution4 works for me [Ref7](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#7-propsed-solution4)
+(optional) 4. add repo in Git Apps (Githubdesktop or GitKraken, etc)
+
+
+### Solution4 works for me: [Ref7](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#7-propsed-solution4)
 works, Test on Foo.jl
 
 
-### Proposed Solution5, I didn't try [Ref8](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#8-proposed-solution5)
+### Proposed Solution5, I didn't try: [Ref8](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#8-proposed-solution5)
 
 I didn't try because author copy files from generated template to another folder: 
 `Now, just copy the files from the ~/.julia/dev/VegaGraphs to the folder where you will be working from, and then setup your git repository by running the following commands in the terminal:.....`
 I don't want to create different folders
 
+
+- - -
 
 ## Reference
 ##### 1. Official : 
@@ -92,7 +106,7 @@ https://discourse.julialang.org/t/run-git-version-on-windows-errors/62198
 ##### 4. Solution1:
 https://discourse.julialang.org/t/upload-new-package-to-github/56783/8
 
-##### 5. Proposed Solution2:
+##### 5. Solution2:
 https://discourse.julialang.org/t/upload-new-package-to-github/56783/10
 
 ##### 6. Solution3:

@@ -28,7 +28,7 @@ C:\Program Files\Git\cmd\git.exe
 
 ### Solution1 works for me: [Ref4](https://github.com/pywugate/MyCoolPackage.jl?tab=readme-ov-file#4-solution1)
 
-Test on this repo MyCoolPackage.jl
+Test on this repo [MyCoolPackage.jl](https://github.com/pywugate/MyCoolPackage.jl)
 
 - - - 
 
@@ -102,6 +102,8 @@ error: failed to push some refs to 'https://github.com/your-GitHub-username/MyCo
 
 ```
 
+### Solution4 
+
 
 
 
@@ -124,9 +126,17 @@ fails for me, https://discourse.julialang.org/t/upload-new-package-to-github/567
 ##### 6. Proposed Solution3:
 fails for me, https://discourse.julialang.org/t/upload-new-package-to-github/56783/14
 
+##### 7. Solution4 : 
+https://discourse.julialang.org/t/trouble-publishing-my-first-package-to-github/93293/5
 
-4. Solution2: https://discourse.julialang.org/t/trouble-publishing-my-first-package-to-github/93293/3
-5.
+
+##### 8. Proposed Solution5: 
+https://medium.com/coffee-in-a-klein-bottle/developing-your-julia-package-682c1d309507
+
+I didn't try because author copy files from generated template to another folder: 
+`Now, just copy the files from the ~/.julia/dev/VegaGraphs to the folder where you will be working from, and then setup your git repository by running the following commands in the terminal:.....`
+I don't want to create different folders
+
 
 
 

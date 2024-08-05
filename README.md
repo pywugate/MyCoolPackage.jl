@@ -8,11 +8,12 @@ The key difference is that Chris use GitKraken, which seems no problem.
 
 I used GitHub desktop and there are many problems:
 
-1. GitHubDesktop always creates subfolder if I created new repo:
+1. If I created new repo, GitHubDesktop always creates subfolder :
 `~\.julia\dev\MyCoolPackage\MyCoolPackage.jl`
 
 or 
-2. GitHubDesktop always got error and couldn't push repo if I add existing repo.
+
+2. If I add existing repo, GitHubDesktop always got error and fais pushing:
 `“The repository does not seem to exist anymore. You may not have access, or it may have been deleted or renamed.”`
 
 
